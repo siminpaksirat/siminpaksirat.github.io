@@ -1,0 +1,83 @@
+
+
+
+
+body{
+	background-image: url(https://i.ibb.co/DY2PLhv/picthai-free-vector60-8-01.jpg);
+	background-repeat: repeat;
+	background-size: 80% 80%;
+}
+
+#bimg{
+		height:100%;
+	width: 100%;
+	visibility: hidden;
+	position: absolute;
+}
+#b{
+	height: 150%;
+	width: 150%;
+	opacity: .5;
+	position: relative;
+
+}
+
+
+.navcontainer{
+	font-family: sans-serif;
+	font-style: normal;
+	margin: 0px 0px 0px;
+	padding: 0px;
+
+}
+
+.topnav ul{
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: left;
+	background-color:#120e26;
+	align-self: center;
+	margin: 0px 0px 0px;
+	opacity: 60%;
+}
+
+.topnav ul li{
+	text-align: left;
+	display:inline-block;
+	padding: 15px;
+margin: 0px 0px 0px;
+}
+
+h2{
+	font-display: block;
+	color: ghostwhite;
+}
+
+h1{
+	color:#120e26 ;
+	align-content: center;
+	text-align: center;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 100px;
+}
+
+.F{
+	height:700px;
+	margin: 0px;
+	padding: 0px;
+	opacity: 60%;
+	background-color:#120e26 ;
+}
+
+.arrange{
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: 3;
+}
+
+
+
+
