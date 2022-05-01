@@ -1,82 +1,390 @@
 
-
-
-
-body{
-	background-image: url(https://i.ibb.co/DY2PLhv/picthai-free-vector60-8-01.jpg);
-	background-repeat: repeat;
-	background-size: 80% 80%;
-}
-
-#bimg{
-		height:100%;
-	width: 100%;
-	visibility: hidden;
-	position: absolute;
-}
-#b{
-	height: 150%;
-	width: 150%;
-	opacity: .5;
-	position: relative;
-
-}
-
-
-.navcontainer{
-	font-family: sans-serif;
+#navbar a {
+		color:#120e26 ;
+	align-content: flex-start;
+	padding-left: 29px;
+		flex-flow: row;
+			color:whitesmoke;
+		font-family: sans-serif;
 	font-style: normal;
-	margin: 0px 0px 0px;
-	padding: 0px;
-
+	font-size: 22px;
+		text-align: left;
 }
 
-.topnav ul{
-	height: 200px;
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
+.nav{
+	display: inline-flex;
+	margin: auto;
+	margin-top: 45px;
+		justify-content: space-between;
+	align-content: space-between;
+background-color:#1c371d;
+object-fit: cover;
+padding: 29px;
+padding-top: 29px;
+padding-bottom:29px;
+}
+
+.link{
+padding: 14px;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+main{
+	padding: 68px;
+	align-content: center;
+	align-items: center;
+}
+
+.firstpagetxt{
 	text-align: left;
-	background-color:#120e26;
-	align-self: center;
-	margin: 0px 0px 0px;
-	opacity: 60%;
+	color:#120e26;
+		font-family: sans-serif;
+	font-size: 12px;
+	background-color: #fef9db;
+	padding: 45px;
+	display: block;
+	font-weight: normal;
 }
 
-.topnav ul li{
-	text-align: left;
-	display:inline-block;
-	padding: 15px;
-margin: 0px 0px 0px;
-}
 
-h2{
-	font-display: block;
-	color: ghostwhite;
-}
+
 
 h1{
 	color:#120e26 ;
-	align-content: center;
-	text-align: center;
+	align-content: flex-start;
+	text-align: left;
 	font-family: sans-serif;
 	font-style: normal;
-	font-size: 100px;
+	font-size: 75px;
+	padding-left: 30px;
 }
 
-.F{
-	height:700px;
-	margin: 0px;
-	padding: 0px;
-	opacity: 60%;
-	background-color:#120e26 ;
+h2{
+	display: inline-block;
+	color:#120e26;
+		font-family: sans-serif;
+		width: 50%;
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold;
+padding: 10px;
+background-color: #ecf1fa;
 }
 
-.arrange{
-	display: grid;
-	grid-template-columns: 1;
-	grid-template-rows: 3;
+h3{
+	display: inline-block;
+	color:#120e26;
+		font-family: sans-serif;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+margin-top: 1px;
+margin-bottom: .1px;
+padding: 10px;
 }
+
+h4{
+	color:#120e26;
+		font-family: sans-serif;
+	text-align: center;
+		font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+margin-top: 1px;
+margin-bottom: .1px;
+padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+background-color: #fef9db;
+}
+
+h5{
+text-align: left;
+	color:#120e26;
+		font-family: sans-serif;
+	font-size: 12px;
+	background-color: #fef9db;
+	padding: 45px;
+	display: block;
+	font-weight: normal;
+}
+h6{
+text-align: left;
+	color:#120e26;
+		font-family: sans-serif;
+	font-size: 13px;
+	background-color: #fef9db;
+	padding: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	font-weight: normal;
+}
+
+.t{
+		color:black;
+		object-fit: cover;
+	text-align: center;
+		font-family: sans-serif;
+	  font-size: 1.5em;
+	  font-weight: 900;
+margin-top: 0px;
+padding: 5px;
+background-color: #d1c2bb;
+width: 99%;
+}
+
+.r{
+		color:black;
+		object-fit: cover;
+	text-align: center;
+		font-family: sans-serif;
+	  font-size: 1.8em;
+	  font-weight: 900;
+margin-top: 0px;
+padding: 10px;
+background-color: #9ba5b3;
+width: 97.5%;
+}
+.reflink{
+	display:inline-flex;
+	justify-content: center;
+	justify-items: center;
+	background-color:#657b66;
+	object-fit: cover;
+	font-size: 22px;
+		color:whitesmoke;
+		font-family: sans-serif;
+	font-style: bold;
+width: 100%;
+padding: 6px;
+}
+
+.ceremony-reception-head{
+		color:black;
+		object-fit: cover;
+	text-align: center;
+		font-family: sans-serif;
+	  font-size: 1.5em;
+	  font-weight: 900;
+margin-top: 0px;
+padding: 5px;
+background-color: #c9b7a1;
+width: 99%;
+}
+
+.ceremony-reception-txt{
+	text-align: left;
+	color:#120e26;
+		font-family: sans-serif;
+	font-size: 13px;
+	background-color: #fef9db;
+	padding: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	font-weight: normal;
+}
+
+.f{
+		color:black;
+		object-fit: cover;
+	text-align: center;
+		font-family: sans-serif;
+	  font-size:auto;
+	  font-weight: 900;
+margin-top: 0px;
+background-color: #d1c2bb;
+padding-bottom: 0px;
+}
+
+/*---------------------------BACKGROUND SETTING--------------------------*/
+body{
+	  margin: 0;
+  padding: 0;
+	  height: 100vh;
+  width: 100vw;
+	background-image: url(https://i.ibb.co/3RjPnsy/PLAINBACKGROUND.png);
+}
+/*---------------------------BACKGROUND SETTING--------------------------*/
+
+
+/*---------------------------HOME--------------------------*/
+
+
+
+
+
+
+/*---------------------------HOME--------------------------*/
+
+
+
+/*---------------------------THE DAY--------------------------*/
+
+
+
+.thedaycontainer{
+		padding: 28px;
+		padding-top: 25px;
+	align-content: center;
+	align-items: center;
+	padding-bottom: 0px;
+}
+
+.flexbox{
+padding: 75px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 100%;
+padding-bottom: 0px;
+align-items: center;
+align-content: center;
+
+}
+
+
+#firstrow{
+	flex-direction: row;
+}
+.firstrow{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#ceremony{
+	height: 505px;
+}
+
+
+
+/*---------------------------PRE-GAME--------------------------*/
+
+#pregame{
+
+width: 100%;
+}
+
+/*---------------------------TRAVEL--------------------------*/
+
+#travel{
+align-content: center;
+align-items: center;
+width: 100%;
+}
+
+.travel-txt{
+		color:#120e26;
+		font-family: sans-serif;
+	text-align: left;
+		font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+margin-top: 1px;
+margin-bottom: .1px;
+padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+background-color: #fef9db;
+}
+
+/*---------------------------REGISTRY--------------------------*/
+
+#registry{
+align-content: center;
+align-items: center;
+}
+
+.registry{
+
+}
+
+/*---------------------------RSVP--------------------------*/
+
+#rsvp{
+align-content: center;
+align-items: center;
+height: 50%;
+width: 100%;
+}
+
+.form{
+width: 100%;
+}
+
+
+input[type=text] {
+	display: inline-block;
+  width: 40%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  box-shadow: black;
+    background-color: white;
+  color: black;
+  text-align: left;
+   border: 3px solid #555;
+  border-radius: 12px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+  border-radius: 12px;
+}
+
+textarea{
+    background-color: white;
+  color: black;
+	 box-sizing: border-box;
+  box-shadow: black;
+    width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  text-align: left;
+     border: 3px solid #555;
+  border-radius: 12px;
+}
+
+select {
+	display: inline-block;
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #9ba5b3;
+  font-size: 15px;
+  font-weight: bold;
+     border: 3px solid #555;
+  border-radius: 12px;
+}
+
+
+.co{
+	display: inline-block;
+
+}
+
+input[type=submit]{
+	background-color: #9ba5b3;
+	  font-size: 22px;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+input[type=radio]{
+	display: inline-block;
+height: 30px;
+width: 30px;
+border: 3px solid #555;
+padding-left: 20px;
+}
+
 
 
 
