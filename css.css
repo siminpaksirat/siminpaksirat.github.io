@@ -1,0 +1,701 @@
+html{
+	max-width: 100%;
+	min-height: 100%;
+}
+
+body{
+	background: linear-gradient(#9fa5d5,#e8f5c8);
+	background-repeat: no-repeat;
+	height: 2500px;
+}
+
+body .home{
+	text-decoration: none;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+---------------------------HEADER-SETTING----------------------------
+h1{
+	display: inline-block;
+	text-decoration: none;
+    font-size:50px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+h2{
+	display: inline-block;
+	text-decoration: none;
+    font-size:35px;
+	margin: 0px;
+	margin-bottom: 10px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+h3{
+	display: inline-block;
+	text-decoration: none;
+    font-size:35px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+h4{
+    display: inline-block;
+    text-decoration: none;
+    font-size:49px;
+	margin: 0px;
+	width: 300px;
+	height: auto;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+h5{
+	display: inline-block;
+	grid-column: 3/4;
+	margin: 0px;
+	text-decoration: none;
+	font-size:45px;
+	padding-left: 10px;
+	font-family: LD-Culoare-v2;
+	color: #4b795c;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:4px 4px #whitesmoke;
+}
+h6{
+	display: inline-block;
+	grid-column: 3/4;
+	font-size:50px;
+	text-decoration: none;
+	text-align: justify;
+	margin: 0px;
+	padding-right: 30px;
+	padding-top: 110px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+
+---------------------------HEADER-SETTING----------------------------
+
+---------------------------LOGO---------------------------------------
+.logo{
+	display: inline-block;
+	width: 320px;
+	padding: 30px;
+}
+.logotxt{
+	width: 200px;
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-align: left;
+	font-size: 70px;
+	text-decoration: none;
+    background-color: #ffffff;
+    background-image: linear-gradient(352deg, #ff860a, #0005ae);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    padding-top: 0px;
+    margin: 0px;
+    margin-left: 120px;
+}
+.logo1{
+	width: 100px;
+	float: left;
+	padding-left: 30px;
+}
+.logo2{
+	width: 100px;
+	float: right;
+	transform: rotate(180deg);
+	padding-left: 45px;
+	padding-bottom: 40px;
+}
+---------------------------LOGO---------------------------------------
+
+---------------------------HOME-NAV-BAR----------------------------
+.navbar{
+	height: fit-content;
+	width: fit-content;
+	padding-left: 100px;
+}
+.mhome{
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-align: left;
+	margin-top: 250px;
+	padding-left: 220px;
+	transform: rotate(33deg);
+	font-size: 80px;
+	text-decoration: none;
+    background-color: #ffffff;
+    background-image: linear-gradient(358deg, #9bbb34, #0400ad);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.mrsvp{
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-decoration: none;
+	text-align: left;
+	font-size:100px;
+	padding-left: 600px;
+	margin-bottom: 0px;
+	background-color: #ffffff;
+    background-image: linear-gradient(1deg, #b3b921, #252c89);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;		
+}
+.mtheday{
+	display: block;
+	width: 300px;
+	height: 250px;
+	font-family: LD-Culoare-v2;
+	text-decoration: none;
+	text-align: left;
+	font-size:150px;
+	padding-left: 100px;
+	padding-bottom: 0px;
+	background-color: #ffffff;
+    background-image: linear-gradient(97deg, #dcec32, #2218ba);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;		
+}
+.mweddingpregame{
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-decoration: none;
+	text-align: left;
+	font-size:90px;
+	margin-left: 300px;
+	transform: rotate(270deg);
+	background-color: #ffffff;
+    background-image: linear-gradient(191deg, #dcec32, #0400ad);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;			
+}
+.mtravel{
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-decoration: none;
+	text-align: left;
+	font-size:90px;
+	margin-left: 220px;
+	margin-top: 300px;	
+	background-color: #ffffff;
+    background-image: linear-gradient(181deg, #dcec32, #0400ad);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;		
+}
+.mregistry{
+	display: block;
+	font-family: LD-Culoare-v2;
+	text-decoration: none;
+	text-align: left;
+	font-size:60px;
+	margin-left: 650px;
+	margin-top: 0px;	
+	transform: rotate(33deg);
+	background-color: #ffffff;
+    background-image: linear-gradient(183deg, #dcec32, #000876);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-decoration: none;	
+}
+---------------------------HOME-NAV-BAR----------------------------
+
+---------------------------TYP-NAV-BAR----------------------------
+.typnav{
+	display: grid;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	height: 200px;
+	min-width: 90%;
+	grid-template-rows:repeat(4, 50%);
+	grid-template-columns: repeat(6, 14%);
+	column-gap: 30px;
+	grid-row-gap: 30px;
+	justify-items: center;	
+}
+.horline{
+	height:30px;
+	width: 130px;
+	position: relative;
+	border-bottom: 20px;
+	background: linear-gradient(183deg, #c8ceff, #0e4a1f);
+	align-content: center;
+}
+.typlink{
+	margin: 0px;
+	font-size: 45px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+.hometyp{
+	margin: 0px;
+	padding-top: 20px;
+}
+
+.rsvp{
+	margin: 0px;
+	padding-top: 20px;		
+}
+
+.theday{
+	margin: 0px;
+	padding-top: 70px;	
+}
+
+.weddingpregame{
+	margin: 0px;
+	padding-top: 100px;
+}
+
+.travel{
+	margin: 0px;
+	padding-top: 220px;		
+}
+
+.registry{
+	margin: 0px;
+	padding-top: 100px;
+	padding-right: 20px;	
+}
+---------------------------TYP-NAV-BAR----------------------------
+
+---------------------------THE-DAY----------------------------
+
+.container{
+	display:inline-flex;
+	max-height: 1300px;
+}
+.timeline{
+	float: left;
+	display: grid;
+	margin: 0px;
+	padding-left: 30px;
+	padding-top: 200px;
+	grid-template-rows:repeat(14, 4%);
+	grid-template-columns:35% 5% 60%;
+	column-gap: 5px;
+	grid-row-gap: 0px;
+	align-content:initial;
+	justify-items: left;
+	max-height: 100%;
+	height: fit-content;
+}
+.timeline img{
+	width: 200px;
+	grid-column: 1/2;
+}
+.map{
+	float: right;
+	padding-top: 400px;
+	padding-left: 90px;
+}
+
+
+.address{
+	display: inline-block;
+	text-decoration: none;
+    font-size:45px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #4b795c;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:3px 6px #whitesmoke;
+}
+
+iframe{
+	margin-top: 60px;
+	box-shadow: 8px 7px #62dc3f;
+	border-radius: 5px;
+}
+---------------------------THE-DAY----------------------------
+
+---------------------------RSVP----------------------------
+.rsvpform{
+	max-width: 100%;
+	height: 1200px;
+	padding-left: 70px;
+	padding-right: 50px;
+	margin-top: 250px;
+	align-content: center;
+}
+input{
+	width: 30%;
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 40px;
+	margin-top: 50px;
+}
+textarea{
+	border-radius: 40px;
+	margin-bottom: 10px;
+}
+.submission{
+	padding-left: 100px;
+}
+input[type="submit"]{
+	font-size: 40px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+}
+input[type="radio"]{
+	cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+input[id="meal"]{
+	width: 75%;
+	padding: 40px;
+	margin-left: 50px;
+}
+---------------------------RSVP----------------------------
+
+---------------------------PRE-GAME----------------------------
+
+.pregame{
+	display: inline-block;
+	max-width: 100%;
+	height: 800px;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pgame{
+	vertical-align: top;
+	padding-top: 300px;
+	padding-left: 350px;
+}
+
+.winary{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 200px;
+}
+.party{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 200px;
+}
+.photo{
+	display: inline-block;	
+}
+
+.winary img{
+	width: 220px;
+	padding-left: 70px;
+}
+
+.photo img{
+	width: 240px;
+}
+
+.party img{
+	width: 220px;
+	padding-left: 50px;
+}
+.ptxt{
+	padding-top: 30px;
+	vertical-align: top;
+	font-size: 40px;
+	margin-left: 120px;
+}
+
+.pgtxt{
+	padding-top: 30px;
+	vertical-align: top;
+	font-size: 40px;
+	margin-left: 100px;
+}
+
+.family{
+	width: 340px;
+	padding-top: 35px;
+	font-size:35px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+	text-align: center;
+}
+.friends{
+	width: 300px;
+	padding-top: 35px;
+	font-size:35px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+	text-align: center;
+}
+
+.dresscode{
+	display: inline-block;
+	align-content: center;
+	align-items: center;
+	width: 250px;
+	font-size:45px;
+	margin: 0px;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	text-shadow:2px 2px #4eff90;
+	text-align: center;
+	padding-left: 335px;
+}
+---------------------------PRE-GAME----------------------------
+
+---------------------------TRAVEL----------------------------
+
+.globe img{ 
+	width: 350px;
+	padding-left: 100px;
+}
+.globe{
+	display: inline-block;
+	height: 400px;
+	padding-top: 200px;	
+}
+.travelhead{
+	width: 450px;
+	vertical-align: top;
+	padding-top: 70px;
+}
+
+.traveldiv{
+	max-width: 100%;
+	margin: 0px;
+	padding: 70px;
+	height: 2500px;
+}
+
+.transimg{
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.transtext{
+	width: 70%;
+	float: right;
+	padding-top: 70px;
+}
+.transimg img{
+	width: 150px;
+}
+
+.lodgimg{
+	width: 30%;
+	float: left;
+	padding-top: 400px;
+}
+.lodgtxt{
+	width: 70%;
+	float: right;
+	padding-top: 70px;
+}
+.lodgimg img{
+	width: 150px;
+}
+
+.foodimg{
+	width: 30%;
+	float: left;
+	padding-top: 170px;
+}
+.foodtext{
+	width: 70%;
+	float: right;
+	padding-top: 50px;
+}
+.foodimg img{
+	width: 150px;
+}
+
+.natureimg{
+	width: 30%;
+	float: left;
+	padding-top: 200px;
+}
+.naturetext{
+	width: 70%;
+	float: right;
+	padding-top: 100px;
+}
+.natureimg img{
+	width: 150px;
+}
+
+.ttitle{
+	vertical-align: top;
+	font-family: copperplate;
+    color: #4b795c;
+    text-decoration: none;
+    font-size:38px;
+	margin: 0px;
+	text-shadow:1px 1px black;
+	text-align: left;	
+	padding-top: 30px;	
+}
+.traveltext{
+	vertical-align: top;
+	font-family: copperplate;
+    color: #4b795c;
+    text-decoration: none;
+    font-size:30px;
+	margin: 0px;
+	text-shadow:1px 1px black;
+	text-align: left;
+	padding-top: 30px;
+}
+.reflink{
+	grid-column:2/4;
+	width: 600px;
+	vertical-align: top;
+	font-family: copperplate;
+    color: #4b795c;
+    text-decoration: none;
+    font-size:35px;
+	margin: 0px;
+	text-shadow:1px 1px black;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 250px;
+}
+---------------------------TRAVEL----------------------------
+
+---------------------------REGISTRY----------------------------
+
+
+
+
+---------------------------REGISTRY----------------------------
+
+
+
+---------------------------FOOTER----------------------------
+footer{
+	display: inline-block;
+	align-content: center;
+	align-items: center;
+	object-fit: contain;
+}
+.foottxt{
+	display: block;
+	align-content: center;
+	align-items: center;
+	text-decoration: none;
+    font-size:35px;
+    margin: 0px;
+	text-align: left;
+	font-family: LD-Culoare-v2;
+	color: #1a249e;
+	text-decoration: none;		
+	object-fit: cover;
+	text-shadow:2px 2px #4eff90;
+	padding-left: 100px;
+	float: left;
+}
+.footertop1{
+	width: 40%;
+	float: right;
+	padding-right: 90px;
+}
+.footertop2{
+	width: 40%;
+	float: left;
+	padding-left: 90px;
+}
+.footerbot1{
+	width: 40%;
+	transform: rotate(180deg);
+	float: right;
+	padding-top: 10px;
+	padding-left: 90px;
+}
+.footerbot2{
+	width: 40%;
+	transform: rotate(180deg);
+	float: left;
+	padding-top: 10px;
+	padding-right: 90px;
+}
+---------------------------FOOTER----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

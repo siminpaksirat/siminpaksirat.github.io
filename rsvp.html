@@ -1,161 +1,117 @@
 <!DOCTYPE html>
-<html>
+ <html >
+
 <head> 
   <title>RSVP</title>
-  <link rel="stylesheet"   href="my_css.css">
+  <link rel="stylesheet" href="scss.css">
 </head>
 
-    <body background="BACKGROUND">
+<body>
 
-      <div class="nav" id="navbar">
-  <a class="link" href="home.html" target="_blank">HOME</a>
-  <a class="link" href="theday.html" target="_blank">THE DAY</a>
-  <a class="link" href="wedding pre-game.html" target="_blank">WEDDING PRE-GAME</a>
- <a class="link" href="travel.html" target="_blank">TRAVEL</a>
-  <a class="link" href="registry.html" target="_blank">REGISTRY</a>
-  <a class="link" href="rsvp.html" target="_blank">R.S.V.P</a>
+<div class="logo">
+    <img class="logo1" src="img/logo1.png">
+      <img class="logo2" src="img/logo2.png">
+        <p class="logotxt">S & B</p>
 </div>
 
-<div class="thedaycontainer">
-<div class="firstrow">
-<div class="flexbox">
-  <img src="https://i.ibb.co/r3RJH6Q/rsvp.jpg" id="rsvp">
-  <p class="r">Please Respond By May 20th, 2022</p>
+
+  <div class="typnav">
+      <a class="typlink" href="home.html">
+        <p class="hometyp">HOME</p>
+        <div class="horline"></div> </a>
+     <a class="typlink" href="theday.html">
+      <p class="theday">THE DAY!</p>
+      <div class="horline"></div> 
+    </a>
+    <a class="typlink" href="rsvp.html">
+      <p class="rsvp">R.S.V.P</p>
+      <div class="horline"></div>
+    </a>
+    <a class="typlink" href="weddingpregame.html">
+      <p class="weddingpregame">WEDDING PRE-GAME</p>
+      <div class="horline"></div>
+    </a>
+    <a class="typlink" href="travel.html">
+      <p class="travel">TRAVEL</p>
+      <div class="horline"></div>
+    </a>
+    <a class="typlink" href="registry.html"> 
+      <p class="registry">REGISTRY</p>
+      <div class="horline"></div>
+    </a>
+  </div>  
 
 
 
-<form class="form" action="rsvp.html" method="post">
-  
-
-<label for="name"><h2>Name</h2></label>
-        <input type="text" name="name" id="name" required>
 
 
+<div class="rsvpform">
+    <h1>Please Respond By May 20th, 2022</h1>
+<form class="rsvp">   
+  <label for="name"><h2>Name</h2></label>
+    <input type="text" name="name" id="name" required>
 <br>
-<label for="lastname"><h2>Last Name</h2></label>
-        <input type="text" name="lastname" id="lastname" required>
-
 <br>
-<label for="email"><h2>Email</h2></label>
-        <input type="text" name="email" id="email">
-        
-
+<br>    
+  <label for="email"><h2>Email</h2></label>
+    <input type="text" name="email" id="email" required>
+<br>
+<br>
+<br>
+    
 <div class="yn">
-          <span><h2>Will you be attending?</h2></span>
-          
-          
-<input type="radio" id="yes" name="yn" value="yes" required>
-          <label for="yes"><h3>Yes</h3></label>
-          
-          <input type="radio" id="no" name="yn" value="no" required>
-
-          <label for="no"><h3>No</h3></label>
-        </div>
-
-
-
-
-
-<div class="co">
-          <label for="count"><h2>How many guest would attend?</h2></label>
-
-
-<select id="count" name="count">
-            <option value="one"><h3>1</h3></option>
-            <option value="two"><h3>2</h3></option>
-            <option value="three"><h3>3</h3></option>
-            <option value="four"><h3>4</h3></option>
-            </select>
+  <span><h2>Will you be attending?</h2></span>       
+    <input type="radio" id="yes" name="yn" value="yes" required>
+  <label for="yes"><h3>Yes</h3></label>
+    <input type="radio" id="no" name="yn" value="no" required>
+  <label for="no"><h3>No</h3></label>
 </div>
-
-
-
-
+<br>
+<br>
+<br>
+<div class="co">
+  <label for="count"><h2>How many guest would attend?</h2></label>
+    <input type="text" name="count" id="count" required>
+</div>
+<br>
+<br>
 <br>
 <div class="meal">
-          <span><h2>Meal Preference</h2></span>
-          <br>
-          
-          
-          <input id="Vegetarian" name="meal" type="checkbox" value="Vegetarian">
-          <label for="Vegetarian"><h3>Vegetarian</h3></label>
-
-          
-          <input id="pescetarian" name="meal" type="checkbox" value="pescetarian">
-          <label for="pescetarian"><h3>Pescetarian</h3></label>
-          
-
-
-<input id="pollotarian" name="meal" type="checkbox" value="pollotarian">
-          <label for="pollotarian"><h3>Pollotarian</h3></label>
-          
-
-          <input id="vegan" name="meal" type="checkbox" value="vegan">
-          <label for="vegan"><h3>Vegan</h3></label>
-        </div>
-
-          <br>
-          <br>
-
+  <label for="meal"><h2>Are there any food <strong>allergies</strong> or <strong>restrinctions</strong> that we should be aware of?</h2></label>
+    <input type="text" name="meal" id="meal" required>
+</div>
+<br>
+<br>    
 <div class="message">
-          <label for="message"><h2>Message:</h2></label>
-          <br>
-          <textarea id="message" name="message" rows="3" cols="100">
-            </textarea>
-            </div>
+  <label for="message"><h2>Message:</h2></label>
+    <textarea id="message" name="message" rows="4" cols="100">
+    </textarea>
+</div>
 
+<div class="submission"> 
+  <input type="submit" value="submit"> 
+</div>
 
-        <section class="submission">
-         
-          <form>
-            <input type="submit" value="submit">
-          </form>
-
-
-
+</div>
 </form>
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ <footer>
+  <img class="footertop1" src="img/footer1.png">
+  <img class="footertop2" src="img/footer2.png">
+ <br>
+ <br>
+    <p class="foottxt">Please don't hesitate to call or email us with any questions!</p>
+    <p class="foottxt">simin.paksirat2@gmail.com</p>
+    <p class="foottxt">wmleidy@gmail.com</p>
+    <p class="foottxt">simin: (773)683-4323</p>
+    <p class="foottxt">Bill: (304)208-4687</p>
+ <br>
+ <br>
+ <img class="footerbot1" src="img/footer3.png">
+ <img class="footerbot2" src="img/footer4.png">
+  </footer> 
 
 </body>
 </html>
